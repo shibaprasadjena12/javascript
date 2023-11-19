@@ -27,10 +27,10 @@ let myobj = [
 
 ]
 
-if(myobj[0].ismarried)
+if(myobj[2].ismarried)
 {
-    console.log(myobj[0].name)
+    console.log(myobj[2].name)
 }
 else{
-    console.log("kichhi nahin")
+    console.log("        kichhi nahin".replaceAll("n" , "h"))
 }
